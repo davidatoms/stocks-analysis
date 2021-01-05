@@ -31,7 +31,8 @@ Sub AllStocksAnalysisRefactored()
     tickers(9) = "SPWR"
     tickers(10) = "TERP"
     tickers(11) = "VSLR"
-    
+  
+
     'Activate data worksheet
     Worksheets(yearValue).Activate
     
@@ -39,11 +40,12 @@ Sub AllStocksAnalysisRefactored()
     RowCount = Cells(Rows.Count, "A").End(xlUp).Row
     
     '1a) Create a ticker Index
-
-    	tickerIndex =
+	Dim tickerIndex = 
+    	tickerIndex = 0
 
     '1b) Create three output arrays   
-    	
+    	tickerIndex x = tickerVolumes
+	tickerIndex y = 
 	Dim tickerVolumes(rowCount, 8) As Long, tickerStartingPrices(rowCount, 3) As Single, tickerEndingPrices(rowCount, 6) As Single
     
     ''2a) Create a for loop to initialize the tickerVolumes to zero. 
