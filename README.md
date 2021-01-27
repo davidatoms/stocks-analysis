@@ -287,9 +287,13 @@ End Sub
 ```
 The refactored code includes the formatting loop. It also includes an index of stocks rather than a list of the stocks. I believe this will help compare the grouping of stocks to others in the future.
 
-## Screenshots of the results
-- Insert picture number 1
-- insert picture number 2
+## Screenshots of the results from the Refactored Code
+![2017 Green Energy Stocks](Resources/Deliverable_2017.png)
+<img align="center">
+---
+
+![2018 Green Energy Stocks](Resources/Deliverable_2018.png)
+<img align="center">
 
 ## Summary
 ### Statement about the advantages of refactoring the code in general
