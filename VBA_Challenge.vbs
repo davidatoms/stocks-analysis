@@ -16,6 +16,7 @@ Sub AllStocksAnalysisRefactored()
     Cells(3, 2).Value = "Total Daily Volume"
     Cells(3, 3).Value = "Return"
 
+'1a) Create a ticker Index
     'Initialize array of all tickers
     Dim tickers(12) As String
     
@@ -38,15 +39,9 @@ Sub AllStocksAnalysisRefactored()
     
     'Get the number of rows to loop over
     RowCount = Cells(Rows.Count, "A").End(xlUp).Row
-    
-    '1a) Create a ticker Index
-	Dim tickerIndex = 
-    	tickerIndex = 0
 
     '1b) Create three output arrays   
-    	tickerIndex x = tickerVolumes
-	tickerIndex y = 
-	Dim tickerVolumes(rowCount, 8) As Long, tickerStartingPrices(rowCount, 3) As Single, tickerEndingPrices(rowCount, 6) As Single
+   
     
     ''2a) Create a for loop to initialize the tickerVolumes to zero. 
     
