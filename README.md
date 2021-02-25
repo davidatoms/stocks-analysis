@@ -1,4 +1,4 @@
-# Green Stocks Analysis
+# Green-stocks Analysis
 
 ###### Written by: David Adams
 ###### Written on: January 26, 2021
