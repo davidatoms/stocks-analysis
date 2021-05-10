@@ -1,4 +1,4 @@
-# Green-stocks Analysis
+# An Analysis of Green Stocks
 
 Columbia Data Analytics Module 2 - Understanding VBA with Microsoft Excel - Helping Steve analyze the performance of multiple green-energy stocks.
 
