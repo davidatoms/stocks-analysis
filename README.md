@@ -7,8 +7,7 @@ _Purpose:_ The purpose of Module 2 was to understand the features of Excel and u
 
 _Background:_ Specifically, this Module was meant to help Steve, who graduated with a finance degree, analyze the performance of a few green energy stocks from 2017 and 2018. Furthermore, I believe that his analysis would have also helped any stock enthusiast or his parents had they held onto the stocks until 2020 when Biden was elected president. 
 
-## Results
-### Analysis
+## Analysis
 2017 was a great year for the green energy stocks in the index. Each stock, except for ticker "TERP", rose in price for the year. Because I only analyzed the return for each of the stocks, the analysis doesn't take DRIP ("dividend re-investment programs"), stock purchase date, or stock sell date into account. However, understanding the total daily volume and return metrics are great first steps in analyzing the stock index's overall performance on the year.
 
 The stocks fell dramatically in 2018 except for a couple of winners. Further analysis and understanding of ticker "ENPH" and "RUN" would likely tell a more powerful story as to why they succeded this year. Another stock in 2018 that would have made an excellent purchase is ticker "VSLR". It is a Utah company and I know they were recently purchased. The stock price soared and Steve's parents would have made more money on the green stock index I created for this assignment.
@@ -16,7 +15,7 @@ The stocks fell dramatically in 2018 except for a couple of winners. Further ana
 _Stock Recommendations:_ "ENPH", "RUN", "VSLR", and "DQ"
 _2021 Stock Recommendations:_ "SEDG", "RUN", "TAN" (not included in the index), "CSIQ", "JKS", and "HASI" from https://www.investopedia.com/investing/top-solar-stocks/
 
-### Code
+## Code:
 ```Sub allStocksAnalysis()
     Dim startTime As Single
     Dim endTime As Single
@@ -141,7 +140,7 @@ Sub formatAllStocksAnalysis()
 End Sub
 ```
 
-### Refactored Code
+## Refactored Code:
 ```
 Sub allStocksAnalysisRedone()
 
@@ -292,14 +291,13 @@ The refactored code includes the formatting loop. It also includes an index of s
 ![2018 Green Energy Stocks](Resources/Deliverable_2018.png)
 <img align="center">
 
-## Summary
-### Statement about the advantages of refactoring the code in general
+## Statement about the advantages of refactoring the code in general
 The advantages of refactoring the code are about consildating and grouping the code to run the same analysis. By doing so, the code is shorter and easier to read than the longer lines of code before it was refactored. Furthermore, it will help the analyst reuse the code in the future if Steve wants to analyze more stocks with the same measure.
 
-### Statement about the disadvantages of refactoring the code in general
+## Statement about the disadvantages of refactoring the code in general
 The disadvantages I see is that the code isn't as straightforward to understand for a beginning analyst, it is also not easily edited if something goes wrong. It is a little more complex and harder to deconstruct if that's ever necessary.
 
-### Statement about the advantages of the orginal and refactored VBA script
+## Statement about the advantages of the orginal and refactored VBA script
 By pseudocoding I could test my own knowledge of what the VBA script should look like. When I copy and pasted the code over to my workbook, it also caused a few errors when I ran the code. I found that it was best for me to pseudocode and then rewrite the VBA script in the editor on Excel. This way I would catch any error prior to it happending. I could also run a few lines of code at a time and see if it worked.
 
 Lastly, this assignment took me a lot longer to understand. I finally understood it when I started to write and test the code line by line. 
