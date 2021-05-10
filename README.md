@@ -1,9 +1,6 @@
 # Green-stocks Analysis
 
-###### Written by: David Adams
-###### Written on: January 26, 2021
-###### Written with: Microsoft Excel VBA
-###### Written for: Columbia University in the City of New York - Module 2
+Columbia Data Analytics Module 2 - Understanding VBA with Microsoft Excel - Helping Steve analyze the performance of multiple green-energy stocks.
 
 ## Overview of the Project
 _Purpose:_ The purpose of Module 2 was to understand the features of Excel and use a VBA script to execute those commands with macros. 
